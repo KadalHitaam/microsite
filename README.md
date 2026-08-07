@@ -3,4 +3,4 @@
 - **Kelompok**: Kelompok Kamu
 
 ### Tangkapan Layar (Screenshot)
-![Tangkapan Layar Halaman Publik](images/public-page.png)
+![Tangkapan Layar Halaman Publik](screenshots/tampilan-web.png)
