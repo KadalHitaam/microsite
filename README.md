@@ -33,26 +33,22 @@ A fast, lightweight developer bio-link page with custom link redirect tracking a
 ### Installation Steps
 
 1. **Clone repository**
-   bash
+   ```bash
    git clone https://github.com/KadalHitaam/microsite.git
    cd biolink-microsite
 
-   bash
     Install dependencies:
     composer install
     npm install && npm run build
 
-   bash
     Setup environment:
     cp .env.example .env
     php artisan key:generate
     Sesuaikan konfigurasi DB_DATABASE, DB_USERNAME, dan DB_PASSWORD di file .env.
 
-   bash
     Migrasi database
     php artisan migrate --seed
 
-   bash
     Jalankan server lokal:
     php artisan serve
 
